@@ -2,6 +2,28 @@ body {
   position: relative;
   padding-top: 80px;
 }
+body .navbar.navbar-fixed-top {
+    border-bottom: solid 4px #E08B1B;
+}
+body .navbar .navbar-inner {
+    background-color: #303030;
+    background-image: linear-gradient(to bottom, #101010, #303030);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #f5e5d1;
+    box-shadow: 0 8px 22px rgba(170, 110, 0, 0.5);
+}
+body .navbar .brand {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #E08B1B;
+}
+body .navbar .nav > li > a,
+body .navbar .nav > li > a:hover {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #E08B1B;
+}
+body .navbar .nav > li > a:hover {
+    background-image: linear-gradient(to bottom, #303030, #101010);
+}
 /* Remove any padding */
 @media (max-width: 979px) {
   body {
