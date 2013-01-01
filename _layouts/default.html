@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-responsive.min.css" />
+        <link rel="stylesheet" href="http://bootswatch.com/united/bootstrap.min.css" />
         <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
         <script type="text/javascript">
             var _gaq = _gaq || [];
@@ -18,14 +20,46 @@
             })();
         </script>
     </head>
-    <body>
-        <header>
-            Blog by <strong>ichiriac</strong>.
-            Find me on <a href="https://github.com/ichiriac">GitHub</a>
-            and <a href="http://twitter.com/#!/phpacktivist">Twitter</a>.
-        </header>
-        <section>
-            {{ content }}
-        </section>
+    <body style="padding-top: 80px;">
+        <div class="navbar navbar-fixed-top">
+           <div class="navbar-inner">
+             <div class="container">
+                <a class="brand" href="http://ichiriac.github.com/">Ioan Chiriac's Blog</a>
+                <div class="nav-collapse" id="main-menu">
+                    <ul class="nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="nav pull-right" id="main-menu-right">
+                        <li><a rel="tooltip" title="Follow me on Github" target="_blank" href="https://github.com/ichiriac"><i class="icon-globe"></i> GitHub</a></li>
+                        <li><a rel="tooltip" title="Follow me on Twitter" target="_blank" href="http://twitter.com/#!/phpacktivist"><i class="icon-globe"></i> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <section id="content">
+                {{ content }}
+            </section>
+            <hr />
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>
+                    &copy; Ioan Chiriac 
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a>
+                </p>
+                <p>
+                    This work is licensed under a 
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        Creative Commons Attribution-NonCommercial-ShareAlike 
+                        3.0 Unported License
+                    </a>.
+                </p>
+            </footer>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
