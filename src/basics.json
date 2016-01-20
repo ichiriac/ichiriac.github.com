@@ -1,0 +1,83 @@
+{
+  "basics": {
+    "name": "Ioan Chiriac",
+    "label": "Software Architect",
+    "picture": "https://avatars2.githubusercontent.com/u/173203?v=3&s=460",
+    "email": "i.chiriac@yahoo.com",
+    "phone": "(+33) 629-344-571",
+    "website": "http://ichiriac.github.com/",
+    "summary": "@todo : Work In Progress",
+    "location": {
+      "address": "Lieu dit les Places",
+      "postalCode": "14350",
+      "city": "La Ferriere Harang",
+      "countryCode": "FR",
+      "region": "Nordmandie"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "ioan_chiriac",
+        "url": "https://twitter.com/ioan_chiriac"
+      },
+      {
+        "network": "CoderWall",
+        "username": "ichiriac",
+        "url": "https://coderwall.com/ichiriac"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Technical"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Basics"
+    }
+  ],
+  "work": [
+    {
+      "company": "F2F Groupe",
+      "position": "CTO",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "ERP"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "volunteer": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "php", "nodejs", "javascript", "java"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
+        "redis", "mysql", "oracle", "postgre", "olap"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "level": "Master",
+      "keywords": [
+        "agile/scrum", "gantt/pert", "cmmi level 3.2", "jira"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "theme": "elegant",
+  "sectionTitles": {
+    "employment": "Work"
+  }
+}
